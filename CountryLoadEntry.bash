@@ -40,10 +40,10 @@ write_log 'Sample: bash ./CountryLoadEntry.bash /home/cloudera/country_code_goog
 else
 if [ -f "${SOURCEFILE}" ]
 then
-write_log 'Start of main process' $LOGFILE
+write_log 'Start of CountryLoadMain.bash' $LOGFILE
 #run main script
 source $MAINSCRIPT
-write_log 'End of main process' $LOGFILE
+write_log 'End of CountryLoadMain.bash' $LOGFILE
 else
 write_log 'The argument is not valid or file does not exists in your file system.' $LOGFILE
 fi

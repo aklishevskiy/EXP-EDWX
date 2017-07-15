@@ -1,18 +1,18 @@
-06:46:13 : Start of main process
-06:46:13 : Start running HQL script
+22:24:58 : Start of CountryLoadMain.bash
+22:24:58 : Start running HQL script
 
 Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
 OK
-Time taken: 0.677 seconds
+Time taken: 0.658 seconds
 OK
-Time taken: 0.307 seconds
+Time taken: 0.314 seconds
 Loading data to table default.lz_country_code_google
 Table default.lz_country_code_google stats: [numFiles=1, numRows=0, totalSize=4702, rawDataSize=0]
 OK
-Time taken: 0.483 seconds
-06:46:23 : hive -f response code: 0
-06:46:23 : Start querying Hive table
-06:46:32 : hive -S -e response code: 0
-06:47:10 : Number of lines in source file: 244
-06:47:10 : Number of rows in Hadoop table: 243
-06:47:10 : End of main process
+Time taken: 0.657 seconds
+22:25:08 : hive -f response code: 0
+22:25:08 : Start querying Hive table
+22:25:17 : hive -S -e response code: 0
+22:25:55 : Number of lines in source file: 244
+22:25:55 : Number of rows in Hadoop table: 243
+22:25:55 : End of CountryLoadMain.bash
